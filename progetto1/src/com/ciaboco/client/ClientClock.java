@@ -26,7 +26,7 @@ public class ClientClock {
 		try 
 		{
 			connessione = new Socket(server, porta);
-			System.out.println("Connessione aperta con successo!");
+			System.out.println("Connessione aperta con successo!:)");
 			in = connessione.getInputStream();
 			input = new InputStreamReader(in);
 			sIN = new BufferedReader(input);
